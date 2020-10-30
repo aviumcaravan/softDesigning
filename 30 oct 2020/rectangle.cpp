@@ -19,10 +19,12 @@ void rectangleCreator(unsigned int a, unsigned int b)
         std::cout << "x";
     }
     
-    for (unsigned int c = 0; c <= b - 2; c++)
+    std::cout << '\n';
+
+    for (unsigned int c = 0; c <= b - 3; c++)
     {
         std::cout << "x";
-        for (unsigned int n = 0; n <= a - 1; n++)
+        for (unsigned int n = 0; n <= a - 2; n++)
         {
             std::cout << ' ';
         }
